@@ -5,6 +5,9 @@ using Documenter
 makedocs(
     sitename="CIT 120: Computational Thinking",
     authors="Mariah A. Knowles <mariah.knowles@kctcs.edu> and contributors",
+    format=Documenter.HTML(assets=[
+        "assets/external_links.js"
+    ]),
     pages = [
         "Home" => "index.md",
         "Unit 1 - Introduction" => [
