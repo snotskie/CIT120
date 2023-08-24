@@ -27,8 +27,6 @@ Also answer these questions:
 
 ## Part 2/3: Guided Exercise
 
-<!-- [https://www.youtube.com/watch?v=7r3mZ8EygX0](https://www.youtube.com/watch?v=7r3mZ8EygX0) -->
-
 In the previous Lab we made methods. In this Lab, we'll make classes/objects.
 
 Since the syntax for this varies a *lot* by language, be sure to consult your favorite documentation, my examples in Reading 12, and me directly (via email). Also save and test your code *often* as you work. We're pulling everything we've learned so far together in this Lab.

@@ -20,18 +20,18 @@ Also answer these questions:
 1. Briefly define, in your own words and as it relates to what we've learned so far, the terms variable, data type, standard input, standard output, concatenation, interpolation, and type conversation.
 2. In your Studio discussion on Blackboard, post a photo of your favorite kind of animal
 3. *Story Problem:* ACME Corp. released the following code (for telling a laser to cut a square out of a sheet of metal) by mistake. All the lines got scrambled! Put the code back in the correct order. If there are multiple correct orders, make a case for why yours is the best.
-```py
-start_laser() # turn the laser on
-size = int(input("How big? ")) # get user input
-move_laser(0, size) # move to top left corner
-end_laser() # turn the laser off
-move_laser(0, 0) # move to the bottom left corner
-move_laser(size, size) # move to top right corner
-move_laser(0, 0) # move back to bottom left corner
-from totally.real.package import start_laser, end_laser, move_laser # load laser tools
-move_laser(size, 0) # move to bottom right corner
-```
-4. (Come back and answer this question after completing the rest of the assignment) What problems, if any, did you encounter at any point in this Lab? What did you do to overcome them?
+   ```py
+   start_laser() # turn the laser on
+   size = int(input("How big? ")) # get user input
+   move_laser(0, size) # move to top left corner
+   end_laser() # turn the laser off
+   move_laser(0, 0) # move to the bottom left corner
+   move_laser(size, size) # move to top right corner
+   move_laser(0, 0) # move back to bottom left corner
+   from totally.real.package import start_laser, end_laser, move_laser # load laser tools
+   move_laser(size, 0) # move to bottom right corner
+   ```
+4. Come back and answer this question after completing the rest of the assignment) What problems, if any, did you encounter at any point in this Lab? What did you do to overcome them?
 
 ## Part 2/3: Guided Exercise
 

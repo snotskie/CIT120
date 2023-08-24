@@ -68,7 +68,7 @@ This will be enough for what we want to accomplish in this class. It'll give us 
 
 ---
 
-~~Lastly~~, some notes about terminology.
+Lastly (sort of), some notes about terminology.
 
 When we use the term "print" in console programming, we do not mean to put words on paper. We mean to display text to the screen. (It actually *did* use to be to display words on paper, like an interactive typewriter.) Some languages have multiple tools for printing, each with small differences, and others keep it simple with just the one.
 

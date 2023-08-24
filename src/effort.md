@@ -26,6 +26,7 @@ What I care about is that you take credit for the work you do. That lets me know
 
 So, in *any* submission that is not pure Authorship, please include this table at the top and fill it out. This goes for Journals, Labs, anything.
 
+```@raw html
 <table style="width:6in; border: none; white-space: wrap; border-collapse: collapse">
   <tr>
     <th style="width: 2in; border: 1px solid black">Authorship</th>
@@ -38,6 +39,7 @@ So, in *any* submission that is not pure Authorship, please include this table a
     <td style="width: 2in; border: 1px solid black">...describe here what AI suggestion tools you used, include the prompt(s) you gave to the tool, describe how you verified that the AI's code was correct for your goals (more than just checking "does it run?"), make it clear you deeply understood what your own goals were, and describe any edits you made to it for it to fit your purposes...</td>
   </tr>
 </table>
+```
 
 This gives me a very clear glance at how you split your efforts. I talk more in [Journal 3](journal03.md) about what endorsing an AI might entail.
 

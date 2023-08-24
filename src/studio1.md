@@ -41,31 +41,31 @@ Finally, after all groups submit, watch another group's discussion and respond w
 4. In each video, what course concepts did the speaker demonstrate? How were these used successfully or unsuccessfully to accomplish the goal the speaker had? Give specific examples from what you remember.
 5. What terms/questions did you research? What answers did you find? Share your citation links with the leader so they can submit them later.
 6. Next, everyone share the preferences you wrote in your first Check-in and why you had those preferences. If I assigned languages by the time you're meeting, what languages did everyone in your group get? And, look together at the different ways to write if statements below (from a mix of languages). Discuss, which does everyone believe is/looks the "best," and why?
-```
-if (a < b){
-  do something here
-}
+   ```
+   if (a < b){
+     do something here
+   }
 
-if (a < b)
-{
-  do something here
-}
+   if (a < b)
+   {
+     do something here
+   }
 
-if a < b:
-  do something here
+   if a < b:
+     do something here
 
-if a < b then
-  do something here
-end if
+   if a < b then
+     do something here
+   end if
 
-if a < b
-  do something here
-end
+   if a < b
+     do something here
+   end
 
-if (a < b):
-  do something here
-endif;
-```
+   if (a < b):
+     do something here
+   endif;
+   ```
 7. Finally, what skills, techniques, tools, lines of thinking, designs, etc. from all of this Studio's videos and discussion would you like to "steal" for your own work?
 
 ## Submission

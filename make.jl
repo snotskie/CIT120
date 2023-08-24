@@ -6,7 +6,8 @@ makedocs(
     sitename="CIT 120: Computational Thinking",
     authors="Mariah A. Knowles <mariah.knowles@kctcs.edu> and contributors",
     format=Documenter.HTML(assets=[
-        "assets/external_links.js"
+        asset("https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"),
+        "assets/script.js"
     ]),
     pages = [
         "Home" => "index.md",

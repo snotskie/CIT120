@@ -20,29 +20,29 @@ Also answer these questions:
 
 1. How does our textbook define "desk checking"?
 2. This is a common coding interview question: Desk check the following logic, and explain what this code has the computer do. How many times will it output the word "FizzBuzz"? Explain your reasoning. (Note: I am not asking you to *run* this code, I am asking you to *explain* it yourself by hand. This *really is* a common interview question.)
-```txt
-i = 1
-while i <= 50
-    if i % 15 == 0
-        output "FizzBuzz!"
-    elseif i % 5 == 0
-        output "Buzz!"
-    elseif i % 3 == 0
-        output "Fizz!"
-    else
-        output i
-    endif
-endwhile
-```
+   ```txt
+   i = 1
+   while i <= 50
+       if i % 15 == 0
+           output "FizzBuzz!"
+       elseif i % 5 == 0
+           output "Buzz!"
+       elseif i % 3 == 0
+           output "Fizz!"
+       else
+           output i
+       endif
+   endwhile
+   ```
 3. How does the book define "scope?" What logic errors does it mention related to this?
 4. Send me an email that says hello
 5. *Story Problem:* ACME Corp. released the following code by mistake. All the lines got scrambled! Put the code back in the correct order and add proper indentation. There is only one correct order.
-```php
-return $result;
-function multiply($a, $b) {
-}
-$result = $a * $b;
-```
+   ```php
+   return $result;
+   function multiply($a, $b) {
+   }
+   $result = $a * $b;
+   ```
 6. (Come back and answer this question after completing the rest of the assignment) What problems, if any, did you encounter at any point in this Lab? What did you do to overcome them?
 
 ## Part 2/3: Guided Exercise
@@ -148,7 +148,9 @@ Replace the `index.php` file contents with:
 
 Hit Run. You should see a red circle, a yellow square, and an orange "doodle". To re-run your code, don't press Stop then Run again. Instead, hit Repl.it's little refresh button that looks like this:
 
+```@raw html
 <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="transparent" style="vertical-align: middle;"><path d="M23 4V10H17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20.4899 15C19.8399 16.8399 18.6094 18.4187 16.984 19.4985C15.3586 20.5783 13.4263 21.1006 11.4783 20.9866C9.53026 20.8726 7.67203 20.1286 6.18363 18.8667C4.69524 17.6047 3.6573 15.8932 3.22625 13.9901C2.79519 12.0869 2.99436 10.0952 3.79374 8.31508C4.59313 6.53496 5.94942 5.06288 7.65823 4.12065C9.36705 3.17843 11.3358 2.81711 13.2678 3.09116C15.1999 3.3652 16.9905 4.25975 18.3699 5.64001L22.9999 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+```
 
 Next, look at the Manolo examples I have at the bottom of my [Generative Art](https://cdn.glitch.com/4d1ce3eb-1449-4924-ae06-785bd41e996a%2FGenerative_Art.pdf?v=1569862153378) PDF. Try to notice the shapes in one of those drawings. Where do you see a square? a circle? a line? What colors are those shapes? Where are they placed? How big are they? Which are in the back (ie, drawn first) and which are in the front (ie, drawn last)? And how might you generate drawings like that using loops?
 
@@ -226,159 +228,3 @@ Just for quick reference, a good place to start is watching someone else, such a
 - [Methods | C# | Tutorial 12](https://www.youtube.com/watch?v=MkDroqxS8LY)
 
 Also continue to refer to whatever documentation has been most helpful to you so far, and reach out to me via email with any unanswered questions you have.
-
-<!-- **For Loop Example: Sums**
-
-In this example we'll be answering the question, what is `1+2+...+1000`?
-
-For example, in Julia:
-
-```julia
-# Input Variables
-cutoff = 1000
-
-# Let's calculate the answer
-sum = 0
-for x = 1:cutoff
-    sum += x
-end
-
-# Let's format the message
-message = "The total of 1+2+...+$cutoff is $sum"
-
-# And let's output the message and be done
-println(message)
-```
-
-(Julia uses a simplified for loop syntax like Python. Your language might resemble the following C code instead:)
-
-```c
-int sum = 0;
-for (int x=1; x <= cutoff; ++x){
-  sum += x;
-}
-```
-
-**Altogether Loop Example: FizzBuzz**
-
-There is this party game for children called "fizz buzz."
-
-The way it works is the first child says "one" and the second child says "two" and so on around the circle, counting up as they go. However, on a multiple of three, a child is supposed to say "Fizz!" instead. If a child ever says the wrong thing, they are out!
-
-For example, in Julia:
-
-```julia
-# Input Variables
-num = 7
-
-# Let's play the game!
-for i = 1:num
-    if mod(i, 3) == 0
-        println("Fizz!")
-    else
-        println(i)
-    end
-end
-
-# Result:
-# 1
-# 2
-# Fizz!
-# 4
-# 5
-# Fizz!
-# 7
-```
-
-(Julia uses the `mod` function to calculate the remainder of division. Mod is short for the term modulo. Most languages would use `i % 3 == 0` here instead. If the result of a mod is zero, that means it's an "is evenly divisble by" case. This is why we have `== 0` as our comparison.)
-
-A harder version of this game has an extra rule: on a multiple of five, you say "Buzz!" This means on a multiple of fifteen, you would say *both* words, yielding "FizzBuzz!"
-
-This harder version of the problem is a common programming interview question you should know how to write in multiple languages. -->
-
-<!-- How much is 1+2+...+10? How much is 1+2+...+100? How much is 1+2+...+1000000? What is a 7% tax on 1+2+...+1000000?
-
-Let's write a program to help us solve this.
-
-We'll break this up into two tasks: computing a sum, and computing a tax.
-
-First, refer to documentation for your language about "defining methods."
-
-Second, create a method called `computeSum` that takes one argument named `N`. Depending on your language, these details might be important:
-
-- `computeSum` will return an integer
-- `N` is an integer
-- `computeSum` can be public or private, and should be static (Java, C#)
-
-Third, inside the method, declare an integer named `sum` and set it equal to zero.
-
-Fourth, right after setting `sum` equal to zero, create a for loop that takes `i` from 1 to `N`.
-
-Fifth, inside the for loop, set `sum` equal to `sum + i`. Then after the for loop, return the value of `sum`.
-
-Just to illustrate, here's what this looks like in Julia:
-
-```julia
-function computeSum(N)
-  sum = 0
-  for i = 1:N
-      sum = sum + i
-  end
-  
-  return sum
-end
-```
-
-(Remember, NEVER copy and paste the Julia code in and try to revise it piece by piece. That will just lead to errors that are hard to debug it. Follow the first/second/third/... instructions above and write it in your own language from scratch. Just look to my example as a reference for the order and nesting of the logic.)
-
-Sixth, inside your main (compiled languages) or at the very end of your code (interpreted languages), print the result of `computeSum(10)`, `computeSum(100)`, and `computeSum(1000)`.
-
-Just to illustrate:
-
-```julia
-function computeSum(N)
-  sum = 0
-  for i = 1:N
-      sum = sum + i
-  end
-  
-  return sum
-end
-
-println(computeSum(10))
-println(computeSum(100))
-println(computeSum(1000))
-```
-
-You should see 55, 5050, and 500500 as your output. Take and embed screenshots.
-
-Seventh, let's move on to the other method, taxes. Create a method called `computeTax` that takes two arguments, `subtotal` and `rate`. Full details:
-
-- `computeTax` returns a double
-- both `subtotal` and `rate` are doubles
-- `computeTax` can be public or private, and should be static (Java, C#)
-
-Inside the method, simply return the value of `rate * subtotal`.
-
-Eigtht, inside your main or at the bottom of your code, print the result of `computeTax(10, 1.06)`, `computeTax(20, 1.06)`, and `computeTax(20, 1.07)`. Verify that the results match what you'd expect, then take and embed screenshots.
-
-Finally, use what you've made to compute and output a 7% tax on 1+2+...+1000000. Make any final tweaks to your output, then take and embed screenshots of your final code and output. -->
-
-
-<!-- Put some thought into these:
-
-1. Suppose you wrote a program that you suspect is in an infinite loop because it keeps running for several minutes with no output and without ending. What could you add to your program to help you discover the origin of the problem? Think of three specific ideas.
-2. In the following Julia code, the loop ends almost immediately when `a=0.5` on the first line, but appears to go infinite when I change it to `a=0.4` instead. Why do you think this is? Can you give me *proof* that the loop really is infinite when `a=0.4`, or if it just takes a very long time?
-```julia
-a = 0.5
-b = 0.9
-while a < b
-  global a, b
-  println("Thinking: $a $b")
-  a *= b
-  b -= a
-end
-
-println("DONE: $a $b")
-```
-3. A key skill in team programming is documenting what methods should do without knowing the exact language/tools/etc. someone else might use to write them. Read the [Python Docstring conventions](https://www.python.org/dev/peps/pep-0257/) page, which has a good convention of do's and dont's you can apply to any language. Then, write, in plain-but-formal English, documentation describing to someone else a `DaysUntil` method. This should return the number of days until a given date. Be sure to specify in your documentation umabiguously how someone should pass a date into your method: Will you use a string like "2017-09-01", three integers, a single integer, something else? Will you care about minutes and seconds? etc. -->

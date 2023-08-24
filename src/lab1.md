@@ -21,24 +21,24 @@ Also answer these questions:
 2. What problems do you think you might have in completing the work in this course or getting a good grade?
 3. Send me an email that says hello
 4. *Story Problem:* ACME Recipes published a recipe book with the following recipe by mistake. All the lines got scrambled! Put the recipe back in the correct order. If there are multiple correct orders, make a case for why yours is the best.
-```txt
-Put chocolate chips into the mixing bowl.
-Put beaten eggs into the mixing bowl.
-Add double cream into the mixing bowl.
-Put the baking dish into the oven.
-Turn off the oven.
-Pre-heat the oven.
-Put sugar into the mixing bowl.
-Grab a clean mixing bowl.
-Put flour into the mixing bowl.
-Put cocoa  powder into the mixing bowl.
-Put baking powder into the mixing bowl.
-Pour the contents of the mixing bowl into the baking dish.
-Put butter into the mixing bowl.
-Wait until baked.
-Mix the contents of the mixing bowl well.
-Serve with chocolate sauce.
-```
+   ```
+   Put chocolate chips into the mixing bowl.
+   Put beaten eggs into the mixing bowl.
+   Add double cream into the mixing bowl.
+   Put the baking dish into the oven.
+   Turn off the oven.
+   Pre-heat the oven.
+   Put sugar into the mixing bowl.
+   Grab a clean mixing bowl.
+   Put flour into the mixing bowl.
+   Put cocoa  powder into the mixing bowl.
+   Put baking powder into the mixing bowl.
+   Pour the contents of the mixing bowl into the baking dish.
+   Put butter into the mixing bowl.
+   Wait until baked.
+   Mix the contents of the mixing bowl well.
+   Serve with chocolate sauce.
+   ```
 5. (Come back and answer this question after completing the rest of the assignment) What problems, if any, did you encounter at any point in this Lab? What did you do to overcome them?
 
 ## Part 2/3: Guided Exercise
