@@ -8,6 +8,14 @@ All other assignments and lectures build upon these. Usually, there will be more
 
 ## Reading
 
+!!! note "Join Handshake"
+
+    Hey everyone!
+
+    I wanted to take a quick sec before break to encourage y'all to [join Handshake](https://kctcs-my.sharepoint.com/:b:/g/personal/mariah_knowles_kctcs_edu/EaOvfI_0NFFKp3Lil1YWprwB_4TK8wXJguh9_khuq_IuEA?e=65cvS6). This is free and will provide you opportunities to network and obtain part-time employment or internships.
+    
+    Though encouraged, this is not required, nor do I receive information on who joins or not.
+
 In this class we have learned:
 
 1. The variables and operators that make up individual *statements*
