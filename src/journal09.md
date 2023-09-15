@@ -8,6 +8,21 @@ All other assignments and lectures build upon these. Usually, there will be more
 
 ## Reading
 
+!!! note "Midpoint Check-in"
+
+    Welcome back from break!
+
+    Since it's the midpoint of our semester, it's a good time check in with how folks are feeling.
+
+    Feel free to reflect in your journal this week on your thoughts on the course so far.
+
+    If you want some survey questions to help get you started, consider these:
+
+    - Approximately how much time have you devoted to this course on a weekly basis thus far?
+    - Have you read all of Ms. Knowles' announcements, messages, readings and videos, and other weekly course items? If no, do you pick and choose, or prefer to figure things out on your own?
+    - Back in [Lab 1](lab1.md), I had you rank your incoming knowledge on a number of items. Since then, do you feel more knowledgeable with any of those items?
+    - Do you have any comments, recommendations, or questions for Ms. Knowles moving forward in the course to help you be successful? Some example things to consider are course design, layout, resources provided, scheduling online meetings, course assistance, assignments, and grades.
+
 The reading from the textbook this week you could say is split into answering two questions:
 
 - Why do we use methods
