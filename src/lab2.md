@@ -18,7 +18,7 @@ Answer the following questions from [our course textbook](https://kctcs.bncolleg
 Also answer these questions:
 
 1. Briefly define, in your own words and as it relates to what we've learned so far, the terms variable, data type, standard input, standard output, concatenation, interpolation, and type conversation.
-2. In your Studio discussion on Blackboard, post a photo of your favorite kind of animal
+2. In the Studio 1 discussion on Blackboard (or your Meet Your Team discussion, your choice), post a photo of your favorite kind of animal
 3. *Story Problem:* ACME Corp. released the following code (for telling a laser to cut a square out of a sheet of metal) by mistake. All the lines got scrambled! Put the code back in the correct order. If there are multiple correct orders, make a case for why yours is the best.
    ```py
    start_laser() # turn the laser on
