@@ -18,7 +18,7 @@ Answer the following questions from [our course textbook](https://kctcs.bncolleg
 Also answer these questions:
 
 1. Define, in your own words and as it relates to what we've learned so far, the terms single-alternative selection, dual-alternative selection.
-2. In your Studio discussion on Blackboard, post the days and times that will work best for you to meet for Studio 2 (which happens the week after this Lab is due)
+2. In your Meet Your Team discussion on Blackboard, post the days and times that will work best for you to meet for Studio 2 (which happens the week after this Lab is due)
 3. *Story Problem:* ACME Corp. released the following code (for displaying how much a renter owes in rent) by mistake. All the lines got scrambled! Put the code back in the correct order, and use [conventional indentation for JS Conditionals](https://www.w3schools.com/js/js_conventions.asp). If there are multiple correct orders, make a case for why yours is the best.
    ```js
    } else if (data.amountOwed > 0 && data.dueDate <= today){ // if time left to pay
