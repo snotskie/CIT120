@@ -12,45 +12,78 @@ makedocs(
     pages = [
         "Home" => "index.md",
         "Unit 1 - Introduction" => [
-            "journal01.md",
-            "journal02.md",
-            "lab1.md",
-            "checkin1.md",
-            "journal03.md",
-            "studio1.md"
+            "Week 1" => [
+                "journal01.md"
+            ],
+            "Week 2" => [
+                "journal02.md",
+                "lab1.md",
+                "checkin1.md"
+            ],
+            "Week 3" => [
+                "journal03.md",
+                "studio1.md"
+            ]
         ],
         "Unit 2 - Fundamental Skills" => [
-            "journal04.md",
-            "journal05.md",
-            "lab2.md",
-            "checkin2.md",
-            "journal06.md",
-            "journal07.md",
-            "lab3.md",
-            "checkin3.md",
+            "Week 4" => [
+                "journal04.md"
+            ],
+            "Week 5" => [
+                "journal05.md",
+                "lab2.md",
+                "checkin2.md"
+            ],
+            "Week 6" => [
+                "journal06.md"
+            ],
+            "Week 7" => [
+                "journal07.md",
+                "lab3.md",
+                "checkin3.md"
+            ]
         ],
         "Unit 3 - Continuing to Build Skills" => [
-            "journal08.md",
-            "studio2.md",
-            "journal09.md",
-            "journal10.md",
-            "lab4.md",
-            "checkin4.md",
+            "Week 8" => [
+                "journal08.md",
+                "studio2.md"
+            ],
+            "Break" => "break.md",
+            "Week 9" => [
+                "journal09.md"
+            ],
+            "Week 10" => [
+                "journal10.md",
+                "lab4.md",
+                "checkin4.md"
+            ]
         ],
         "Unit 4 - Like a Final Draft" => [
-            "journal11.md",
-            "journal12.md",
-            "lab5.md",
-            "checkin5.md",
-            "journal13.md",
-            "peerreview.md",
+            "Week 11" => [
+                "journal11.md"
+            ],
+            "Week 12" => [
+                "journal12.md",
+                "lab5.md",
+                "checkin5.md"
+            ],
+            "Week 13" => [
+                "journal13.md",
+                "peerreview.md"
+            ]
         ],
         "Unit 5 - Wrap Up!" => [
-            "journal14.md",
-            "studio3.md",
-            "journal15.md",
-            "project.md",
-            "tutorial.md",
+            "Week 14" => [
+                "journal14.md",
+                "studio3.md"
+            ],
+            "Week 15" => [
+                "journal15.md",
+                "project.md"
+            ],
+            "Finals" => [
+                "tutorial.md"
+            ]
         ]
     ]
 )
