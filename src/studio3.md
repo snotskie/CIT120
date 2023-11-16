@@ -14,8 +14,8 @@ First, as soon as possible, agree on a time with your Studio Group to meet virtu
 
 Second, watch these two videos:
 
-- <https://youtu.be/Z2TulQg5t30>
-- <https://youtu.be/riBWq1DvVb8>
+- <https://youtu.be/0yySumZTxJ0>
+- <https://youtu.be/IgLc2z_6qPg>
 
 As you watch, jot down techincal terms, or questions you have, that the video does not define/answer for you.
 
