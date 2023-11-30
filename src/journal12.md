@@ -372,6 +372,16 @@ Choose from one of the following two options as you best see fit:
 
 **Option Two:** Submit a brief "Tinker" where you have attempted to "program" something, using the tools of the course, that is not directly related to another course assignment. Include screenshots of the input work done and the output result (even if it does not work), along with a brief statement of your intentions, the approach you took in getting it to work, and your thoughts on your result so far. Make sure it is clear what code came from you and what came from online/the reading/etc.
 
+!!! note "Short on Words?"
+    
+    Short a few words in your journal and don't know what else to write about?
+
+    This week's "get to know you" question is:
+
+    *Reflect on your educational journey. What’s something you learned outside a standard curriculum that’s been invaluable?* [(Credit)](https://jonitrythall.com/daily-discussion-prompts-wiggle-work-way)
+
+    Feel free to write about this a little bit in your journal.
+
 ## Submission
 
 Submit your journal as a Word/PDF (NOT a .pages) document to Blackboard.
